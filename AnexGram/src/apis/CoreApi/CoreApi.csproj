@@ -10,4 +10,8 @@
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\persistence\Persistence.DatabaseContext\Persistence.DatabaseContext.csproj" />
+  </ItemGroup>
+
 </Project>
