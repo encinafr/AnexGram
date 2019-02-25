@@ -1,11 +1,12 @@
-﻿using System;
+﻿using Model.Domain.DbHelper;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Model.Domain
 {
    
-    public class CommentsPerPhoto
+    public class CommentsPerPhoto : AuditEntity,ISoftDeleted
     {
         public long Id { get; set; }
         public string Comment { get; set; }
@@ -15,5 +16,6 @@ namespace Model.Domain
 
         public ApplicationUser User { get; set; }
         public string UserId { get; set; }
+        public bool Deleted { get; set; }
     }
 }
