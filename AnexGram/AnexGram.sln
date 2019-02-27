@@ -13,15 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04.Persistence", "04.Persis
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.Common", "05.Common", "{136F5E71-DE9F-4AC8-9090-2C6046615D3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreApi", "src\apis\CoreApi\CoreApi.csproj", "{3BB70C46-B4BB-45D7-BA97-DB28D5CA4116}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreApi", "src\apis\CoreApi\CoreApi.csproj", "{3BB70C46-B4BB-45D7-BA97-DB28D5CA4116}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "src\common\Common\Common.csproj", "{9FA831AC-D6D6-43CE-8DF6-C96BF480CBDA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "src\common\Common\Common.csproj", "{9FA831AC-D6D6-43CE-8DF6-C96BF480CBDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "src\common\Model\Model.csproj", "{E75013E4-3F19-4A9C-A10C-380929C474ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Model", "src\common\Model\Model.csproj", "{E75013E4-3F19-4A9C-A10C-380929C474ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence.DatabaseContext", "src\persistence\Persistence.DatabaseContext\Persistence.DatabaseContext.csproj", "{807888FF-B147-43E8-86A4-39303137B24A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence.DatabaseContext", "src\persistence\Persistence.DatabaseContext\Persistence.DatabaseContext.csproj", "{807888FF-B147-43E8-86A4-39303137B24A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "src\service\Services\Services.csproj", "{97F4619F-5B99-4CEA-A55E-33B730E44E0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "src\service\Services\Services.csproj", "{97F4619F-5B99-4CEA-A55E-33B730E44E0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auth", "src\apis\Auth\Auth.csproj", "{018F528C-6D46-44FB-9C5A-6F8537122D72}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{97F4619F-5B99-4CEA-A55E-33B730E44E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97F4619F-5B99-4CEA-A55E-33B730E44E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97F4619F-5B99-4CEA-A55E-33B730E44E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{018F528C-6D46-44FB-9C5A-6F8537122D72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018F528C-6D46-44FB-9C5A-6F8537122D72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018F528C-6D46-44FB-9C5A-6F8537122D72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018F528C-6D46-44FB-9C5A-6F8537122D72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +65,7 @@ Global
 		{E75013E4-3F19-4A9C-A10C-380929C474ED} = {136F5E71-DE9F-4AC8-9090-2C6046615D3B}
 		{807888FF-B147-43E8-86A4-39303137B24A} = {3D29EFC9-15E4-4571-91B3-07AD2EEC1293}
 		{97F4619F-5B99-4CEA-A55E-33B730E44E0F} = {79F395CF-BEAA-44B9-8417-82EA32FA6A02}
+		{018F528C-6D46-44FB-9C5A-6F8537122D72} = {A4E13FF3-4425-4DE1-A529-CB5428522E04}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {87C33CD3-B9DF-4E56-8248-A435B50D4E91}
